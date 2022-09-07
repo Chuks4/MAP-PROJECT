@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  background-color: #fbeaeb;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 90vh;
+  padding: 2rem 5%;
+}
+
+.container .text {
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #2f3c7e;
+  flex: 1 1 40rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 2rem;
+  font-weight: 600;
+  padding-bottom: 6rem;
+}
+
+.container .bg-image {
+  flex: 1 1 40rem;
+  background-color: #fbeaeb;
+}
+
+.container .bg-image img {
+  width: 100%;
+}
+
+.container .text #btn {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 1rem 8rem;
+  background-color:#2f3c7e;
+  color: antiquewhite;
+  border-radius: 0.3rem;
+  animation: shakeX;
+  animation-duration: 5s;
+  display: inline-block;
+  animation-iteration-count: infinite;
+}
+
+.container .text #btn:hover{
+  background-color:#00539cff;
+}
